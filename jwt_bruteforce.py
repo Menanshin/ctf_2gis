@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 # Настройки
 admin_phone = '+78005553535'
 url = 'https://banking.2gisctf.ru/api/user'
-wordlist_path = 'secrets.txt'  # путь к словарю
+wordlist_path = 'secrets.txt'
 
 # Загружаем словарь
 with open(wordlist_path, 'r', encoding='utf-8', errors='ignore') as f:
